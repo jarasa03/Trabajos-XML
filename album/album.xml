@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE musica SYSTEM "album_dtd.dtd">
+<!--
+Queremos definir un XML y el DTD que lo valide para guardar información de nuestra colección de música.
+
+El almacenamiento definido debe de poder guardar la siguiente información:
+- Título del álbum
+- Autor (o autores ya que pueden ser varios)
+- Año de publicación
+- Soporte en el que está grabado (LP, cinta, DVD, Vídeo, Blue-Ray…)
+- Si la grabación es en estudio o en directo
+
+Como única restricción se impone que no queremos usar atributos.
+-->
+
+<musica>
+<album>
+<tituloAlbum></tituloAlbum>
+<autor></autor>
+<añoPublicacion></añoPublicacion>
+<soporte></soporte>
+<grabacion></grabacion>
+</album>
+</musica>

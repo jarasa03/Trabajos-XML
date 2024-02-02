@@ -1,0 +1,8 @@
+<!ELEMENT musica (album)*>
+<!ELEMENT album (tituloAlbum, autor+, añoPublicacion, soporte+, grabacion)>
+<!ELEMENT tituloAlbum (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT añoPublicacion (#PCDATA)>
+<!ELEMENT soporte (#PCDATA)>
+<!ELEMENT grabacion (#PCDATA)>
+
